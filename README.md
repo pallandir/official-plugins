@@ -1,6 +1,7 @@
 # Jensen official plugins
 
-The source monorepo for the plugins Jensen ships and maintains. Every plugin here is built, released,
+The source monorepo for the plugins the Jensen team develops, ships and maintains. Plugins from the
+community are not added here: they live in their own repositories and are listed through a PR on the store. Every plugin here is built, released,
 and documented in one place.
 
 This is **not** the catalog. The catalog Jensen fetches lives in
@@ -29,7 +30,7 @@ manifest and assembles the release.
 Every plugin in this monorepo releases from **this repository**, tagged `<plugin>-v<version>`:
 
 ```
-https://github.com/jensen-org/official-plugins/releases/tag/images-tools-v0.1.0
+https://github.com/pallandir/official-plugins/releases/tag/images-tools-v0.1.0
 ```
 
 The tag has to carry the plugin name because two plugins cannot both own the tag `0.1.0`. A plugin in

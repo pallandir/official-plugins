@@ -25,8 +25,8 @@ jobs:
               fail=1
             fi
             repo="$(jq -r '.jensen.repo // ""' "$pkg")"
-            if [ "$repo" != "jensen-org/official-plugins" ]; then
-              echo "::error file=$pkg::$name points at '$repo'; plugins in this monorepo release from jensen-org/official-plugins"
+            if [ "$repo" != "pallandir/official-plugins" ]; then
+              echo "::error file=$pkg::$name points at '$repo'; plugins in this monorepo release from pallandir/official-plugins"
               fail=1
             fi
             tag="$(jq -r '.jensen.tag // ""' "$pkg")"

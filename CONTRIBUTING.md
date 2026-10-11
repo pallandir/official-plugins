@@ -1,7 +1,8 @@
 # Contributing a plugin
 
-This repository holds the plugins Jensen maintains. If you are publishing your own plugin from your
-own repository, you do not need to change anything here: build it, release it, and open a PR on
+This repository holds only the plugins the Jensen team develops, and it does not accept third-party
+plugins. If you are publishing your own plugin from your own repository, you do not need to change
+anything here: build it, release it, and open a PR on
 [jensen-org/plugins-store](https://github.com/jensen-org/plugins-store) with your entry.
 
 Read `AUTHORING.md` first. It points at the SDK docs, which cover the security model, the `Plugin`
@@ -16,7 +17,7 @@ class, permissions and panes.
      "id": "dev.jensen.<name>",
      "category": "graph",
      "minAppVersion": "0.3.0",
-     "repo": "jensen-org/official-plugins",
+     "repo": "pallandir/official-plugins",
      "tag": "<name>-v0.1.0",
      "permissions": { "graph": true }
    }
